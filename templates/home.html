@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}
+<p>Fitur</p>
+{% endblock %}
+{% block content %}
+<header>
+    <h2 class="mb-0 fw-normal text-center">Sea Turtles Detection</h2>
+    <br />
+</header>
+<form
+    class="mx-auto small-container"
+    method="post"
+    enctype="multipart/form-data"
+    action="/checkout">
+    <div class="mb-3">
+    <label for="image" class="form-label">Image Files</label>
+    <input
+        autofocus
+        type="file"
+        id="image"
+        name="image"
+        class="form-control"
+        accept="image/*"
+        capture
+        required
+        autofocus
+    />
+    </div>
+    <button class="btn btn-primary btn-lg w-100" type="submit">Submit</button>
+</form>
+{% endblock %}

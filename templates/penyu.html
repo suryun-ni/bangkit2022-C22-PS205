@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}
+Jenis-Jenis Penyu di Indonesia
+{% endblock %}
+{% block content %}
+<p>Jenis-Jenis Penyu di Indonesia</p>
+<ul>
+    {% for i in penyu %}
+    <li>{{i.nama}}</li>
+    <li>{{i.nama_latin}}</li>
+    <li>{{i.deskripsi}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

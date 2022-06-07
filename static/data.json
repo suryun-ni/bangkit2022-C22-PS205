@@ -1,0 +1,39 @@
+
+[
+    {
+      "id": "1",
+      "nama": "Penyu Belimbing",
+      "nama_latin": "Dermochelis coriacea",
+      "deskripsi": "Penyu belimbing memiliki tempurung berwarna gelap dengan bintik putih. Panjangnya bisa mencapai 180 sentimeter dengan berat mencapai 500 kilogram. Penyu belimbing banyak ditemukan di perairan tropis hingga lautan sub kutub. Ketika penyu belimbing bertelur, mereka akan pergi ke pantai daerah tropis. D. coriacea menghabiskan sebagian besar hidupnya di laut lepas dan hanya naik ke daratan saat akan bertelur dan mereka bisa mengeluarkan telur 60 sampai 129 telur dalam dua sampai tiga tahun."
+    },
+    {
+      "id": "2",
+      "nama": "Penyu Hijau",
+      "nama_latin": "Chelonia mydas",
+      "deskripsi": "Penyu hijau (C. mydas) merupakan penyu yang paling sering terlihat di laut tropis. Ciri paling menonjol dari penyu hijau adalah memiliki kepala kecil dan paruh tumpul. Spesies ini memiliki tubuh berwarna abu-abu, hitam, atau kecokelatan. Lalu kenapa dinamai penyu hijau? Nama penyu hijau sendiri berasal dari warna lemak di bawah sisik yang berwarna hijau. Berbeda dengan penyu belimbing yang bisa bertelur empat sampai lima kali per musim, penyu hijau hanya bertelur sekali dalam tiga sampai empat tahun."
+    },
+    {
+      "id": "3",
+      "nama": "Penyu tempayan",
+      "nama_latin": "Caretta caretta",
+      "deskripsi": "Penyu tempayan dikenal juga sebagai loggerhead turtle. Spesies ini memiliki tempurung berwarna coklat kemerahan, kepala besar, dan paruh bertumpuk. Di kepala bagian depan terdapat lima sisi dengan plastron berwarna coklat muda hingga kuning. Rahangnya yang sangat kuat membuat penyu ini mampu mengkonsumsi kerang-kerangan yang hidup di dasar laut seperti kerang remis, mimi dan invertebrata lain. Rata-rata penyu tempayan bisa tumbuh 70 sampai 210 sentimeter dengan berat 135 sampai 400 kilogram."
+    },
+    {
+      "id": "4",
+      "nama": "Penyu pipih",
+      "nama_latin": "Natator depressa",
+      "deskripsi": "Disebut penyu pipih karena spesies ini memiliki sisik yang rata dan sedikit melengkung di sisi luar. Penyu ini merupakan penyu dengan genus Natator dan merupakan omnivora. Makanan penyu pipih antara lain timun laut, ubur-ubur, kerang-kerangan, udang, dan invertebrata lainnya."
+    },
+    {
+      "id": "5",
+      "nama": "Penyu sisik",
+      "nama_latin": "Eretmochelys imbricate",
+      "deskripsi": "Penyu sisik disebut juga hawksbill turtle karena memiliki paruh tajam dan rucing dengan rahang besar. Dengan anatomi mulut seperti itu memudahkan penyu sisik menjangkau makanan yang berada di celah-celah karang seperti sponge dan anemon. Mereka juga biasa  memakan udang dan cumi-cumi. Nama penyu sisik sendiri merujuk pada sisiknya yang tumpang tindih mirip sisik ikan. Ciri khas penyu sisik adalah memiliki tempurung dengan campuran warna kuning, hitam dan coklat bersih. Sedangkan plastron (organ di bagian bawah penyu) berwarna kekuning-kuningan."
+    },
+    {
+      "id": "6",
+      "nama": "Penyu lekang",
+      "nama_latin": "Lepidochelys olivacea",
+      "deskripsi": "Penyu lekang kerap dikira sebagai penyu hijau karena memiliki ciri tubuh yang mirip. Perbedaannya, penyu dengan nama lain olive ridley turtle ini memiliki kepala yang lebih besar dan bentuk tempuruhnya lebih langsing serta bersudut. Tubuhnya berwarna hijau pudar dan mempunyai kurang lebih lima sisik lateral. Spesies ini merupakan penyu terkecil di antara semua jenis yang ada saat ini dan memiliki kebiasan memakan kepiting, kerang, udang dan kerang remis."
+    }
+  ]
