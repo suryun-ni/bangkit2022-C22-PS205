@@ -2,13 +2,43 @@ from flask import render_template
 from flask import Flask
 from datetime import datetime
 import re
+import pickle
 import os,json
+import numpy as np
+import cv2
+
+model = pickle.load(open('VGG-16.ipynb','rb'))
 
 app = Flask(__name__)
+
+
+
+ML_MODEL_FILE = "VGG-16.ipynb"
+
+def imdecode_image(image_file):
+    return cv2.imdecode(
+        np.frombuffer(image_file.read(), np.uint8),
+        cv2.IMREAD_UNCHANGED
+    )
+
+# def recognize_turtles_by_cv_image(cv_image):
+    # freshness_percentage = freshness_percentage_by_cv_image(cv_image)
+    # return {
+    #     # TODO: change freshness_level to freshness_percentage
+    #     "freshness_level": freshness_percentage,
+    #     "price": price_by_freshness_percentage(freshness_percentage)
+    # }
 
 @app.route("/")
 def home():
     return render_template("home.html")
+
+
+
+@app.route('/api/recognize', methods=["POST"])
+def api_recognize():
+    cv_image = imdecode_image(request.files["image"])
+    return recognize_turtles_by_cv_image(cv_image)
 
 # New functions
 @app.route("/about/")
